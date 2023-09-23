@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+    <title>Log In</title>
+    <link rel="stylesheet" href="page-log-in-cliniv.css">
+
+
+</head>
+
+<body>
+    <div class="tabbar">
+        <img class="logo" src="images-tabbar\logo.jpg">
+        <ul class="manu">
+            <li class="nav-item"><a href="#" class="tab-link">
+                <img id="img" src="images-tabbar\find us.svg" alt="">
+                    FIND US 
+            </a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/watch?v=oUoge5ED6Yw" class="tab-link">
+                <img id="img" src="images-tabbar\CALL.svg" alt="">
+                    02648465
+            </a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/watch?v=oUoge5ED6Yw" class="tab-link">
+                <img id="img" src="images-tabbar\profile.svg" alt="">
+                    PROFILE
+            </a></li>
+            <li class="nav-item"><a href="https://www.youtube.com/watch?v=oUoge5ED6Yw" class="tab-link">
+                <p id="round"><img id="img" src="images-tabbar\calendar.png">
+                    <span class="h1">BOOK APPOINMANT</span> </p>               
+            </a></li>
+            
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div><!--tabbar-->
+
+    <div class="box"> <!--relative กำหนดกรอบคงที่-->
+        <img class="bg" src="images-login\bg.svg">
+        <div id="boxin"></div> <!--กล่องใส-->
+        <div class="h"> <!--สร้างกล่องแยกเพื่อให้ตัวอักษรชัด-->
+                <center>    
+                    <h1>Log in</h1>
+                </center> 
+                <a href=""><div id="boxfrom"></div></a>
+                <a href="page_log_in.html">
+                    <div id="boxPersonal">Personal</div>
+                </a>
+                <a href="https://i.pinimg.com/564x/00/51/6c/00516caa08f5f078649988d6dc8fe44b.jpg">
+                    <div id="boxClinic">Clinic</div>
+                </a>
+
+                <!--กรอกข้อมูล-->
+                <form action="http://httpbin.org/post"><!--ใส่formแยกทีหลัง-->
+                <br>
+                <h2>Enter Email</h2>
+                <input id="input" type="email" name="email">   
+                <br>   
+                <h2>Enter Password</h2>
+                <input id="input" type="password" name="password">      
+                <br><br>
+                <input id="check" type="checkbox">
+                <h3>REMEMBER ME</h3>
+                <br><br><center><button id="submit" type="submit">Log in</button></center>
+                <div class="row">
+                    <a href="หน้าครีเอท" class="link"><h5>CREATE NEW ACCOUNT</h5></a>
+                    <a href="หน้าครีเอท" class="link"><h5>FORGOT PASSWORD?</h5></a>
+                    <a href="หน้าครีเอท" class="link"><img id="imghome" src="images-login\home.svg"></a>
+                </div>
+            </form>
+                                                                                       
+            </div>
+    </div>
+    <script src="script.js"></script>
+</body>
